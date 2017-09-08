@@ -1,0 +1,7 @@
+<h1> <%= @team %> </h1>
+
+<ul>
+  <% @playerlist.each_pair do |key, value| %>
+    <li><%= value %> ,  <%= key %></li>
+  <% end %>
+</ul>

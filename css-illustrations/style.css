@@ -1,0 +1,81 @@
+
+
+.branch-0 {
+  background-color: green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-1 {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-2 {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-3 {
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-4 {
+  width: 450px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-5 {
+  width: 650px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branch-6 {
+  width: 800px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trunk {
+  background-color: brown;
+  width: 50px;
+  height: 250px;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}

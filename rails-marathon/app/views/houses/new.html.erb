@@ -1,0 +1,39 @@
+<h1>New House Form</h1>
+
+<%= form_for(@house) do |f| %>
+  <% if @house.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@house.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @house.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="">
+    <%= f.label :name, 'Name' %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="">
+    <%= f.label :author, 'Author' %>
+    <%= f.text_field :author %>
+  </div>
+
+  <div class="">
+    <%= f.label :source, 'Source' %>
+    <%= f.text_field :source %>
+  </div>
+
+  <div class="">
+    <%= f.label :motto, 'Motto' %>
+    <%= f.text_field :motto %>
+  </div>
+
+  <div class="">
+    <%= f.submit 'Add House' %>
+  </div>
+<% end %>

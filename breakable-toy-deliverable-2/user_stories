@@ -1,0 +1,25 @@
+BRIEF DESCRIPTION:
+
+For my Breakable Toy Project, I've chosen to create an app called Headbangr. This app, given an area, date, and an API, will display for the user all the concerts happening in the user's for the next 30 days. It will also allow the user to identify which concerts they will be attending and to coordinate/interact with other users via a message board page (in React). I also hope to have time enough to create a button/method to make a Facebook post.
+
+
+USER STORIES:
+
+As a potential user, I want to be able to sign up for the app.
+
+As a signed-up user, I want to my login info to be authenticated.
+
+As an authenticated user, I want to be able to:
+  - View a list of the concerts in my area for the next 30 days
+  - View a clickable icon to take me to the concert page of the site whose API the app uses (API requirement)
+  - Click a button to indicate my attendance to a particular concert
+  - See my indication of attendance reflected in the list of concerts I plan to attend
+  - View a list of the concerts I plan to attend
+  - Remove a concert from my Attending list
+  - Have access to the comment page for the concerts I am attending
+  - Leave a comment on the message boards to which I have access
+  - Delete a comment that I left on the message board
+  - Edit a comment that I left on the message board
+  - Be unable to delete comments from another user
+  - Search my list for concerts by venue name or performers
+  - Be notified via email that someone has posted a new message on a board to which I have access.

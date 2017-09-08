@@ -1,0 +1,13 @@
+<!--  YOUR CODE HERE -->
+<%= @name %>
+<ul>
+  <% @ingredients.each do |ingredient| %>
+    <li><%= ingredient %></li>
+  <% end %>
+</ul>
+
+<ol>
+  <% @directions.each do |step| %>
+    <li><%= step %></li>
+    <% end %>
+  </ol>

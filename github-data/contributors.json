@@ -1,0 +1,35 @@
+[
+  {
+    "login": "lilybarrett",
+    "id": 14283667,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14283667?v=3",
+    "url": "https://api.github.com/users/lilybarrett",
+    "type": "User",
+    "name": "Lily Barrett",
+    "location": "Boston, MA",
+    "created_at": "2015-09-14T22:34:01Z",
+    "updated_at": "2017-04-11T19:32:31Z"
+  },
+  {
+    "login": "radavis",
+    "id": 1299034,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1299034?v=3",
+    "url": "https://api.github.com/users/radavis",
+    "type": "User",
+    "name": "Richard Davis",
+    "location": "Boston, MA",
+    "created_at": "2012-01-02T14:21:13Z",
+    "updated_at": "2017-03-17T15:15:27Z"
+  },
+  {
+    "login": "justinhuynh",
+    "id": 8738301,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8738301?v=3",
+    "url": "https://api.github.com/users/justinhuynh",
+    "type": "User",
+    "name": "Justin Huynh",
+    "location": null,
+    "created_at": "2014-09-11T14:49:46Z",
+    "updated_at": "2017-04-07T01:58:46Z"
+  }
+]

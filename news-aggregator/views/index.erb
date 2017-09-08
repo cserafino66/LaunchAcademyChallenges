@@ -1,0 +1,10 @@
+<h1>All the Articles</h1>
+
+
+<% @articles.each do |article| %>
+  <h3> <%= article.title %> </h3>
+  <h4><a href= <%= article.url %> > <%= article.url %> </a></h4>
+  <h5> <%= article.description %> </h5>
+<% end %>
+
+<a class="back" href="/articles/new">Add a New Article</a>

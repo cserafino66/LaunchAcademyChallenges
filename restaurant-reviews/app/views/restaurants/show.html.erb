@@ -1,0 +1,21 @@
+<h1> <%= @restaurant.name %> </h1>
+
+<h4> <%= @restaurant.address %> </h4>
+<h4> <%= @restaurant.city %> </h4>
+<h4> <%= @restaurant.state %>  </h4>
+<h4> <%= @restaurant.zip %> </h4>
+<h4> <%= @restaurant.description %> </h4>
+
+
+
+<h1>Reviews</h1>
+<ul>
+<% @review.each do |review| %>
+  <li> <%= review.body %>
+    <%= review.rating %>
+  <%= review.created_at.strftime("%B %d %Y") %></li>
+<% end %>
+</ul>
+<%= link_to 'Add a Review', new_restaurant_review_path(@restaurant) %>
+
+<%= link_to 'Back to Restaurant Index', restaurants_path %>
